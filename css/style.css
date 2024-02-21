@@ -1,0 +1,39 @@
+/* Apply styling to the entire body */
+body {
+    font-family: 'Arial', sans-serif; /* Set font family for the entire document */
+    background-color: #f0f0f0; /* Set a light gray background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    text-align: center; /* Center-align text within the body */
+}
+
+/* Apply styling to all div elements */
+div {
+    margin-bottom: 10px; /* Add margin at the bottom of each div */
+}
+
+/* Apply styling to all label elements */
+label {
+    font-weight: bold; /* Make label text bold */
+}
+
+/* Apply styling to all button elements */
+button {
+    padding: 10px; /* Add padding to the button */
+    margin: 5px; /* Add margin around the button */
+    cursor: pointer; /* Set cursor to pointer on hover, indicating interactivity */
+}
+
+/* Apply styling to all select elements */
+select {
+    padding: 8px; /* Add padding to the select box */
+}
+
+/* Apply styling to all img elements */
+img {
+    max-width: 100%; /* Ensure images don't exceed the width of their container */
+    height: auto; /* Maintain the aspect ratio of images */
+    border: 2px solid #333; /* Add a 2px solid border with a dark color */
+    margin-top: 10px; /* Add margin at the top of each image */
+}
